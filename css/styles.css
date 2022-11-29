@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+h1{
+    margin: 3.125rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Nunito', sans-serif;
+    color: #11999E;
+}
+.top-container{
+    position: relative;
+    background-color: #F2E7D5;
+    padding-top: 100px;
+}
+.middle-container{
+    background-color: #F7F7F7;
+}
+.bottom-container{
+    background-color: #F2E7D5;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.Golf{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.Guitar{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
