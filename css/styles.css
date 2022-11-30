@@ -11,7 +11,7 @@ h1{
 }
 h2{
     font-family: 'Nunito', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: normal;
     color: #66BFBF;
     padding-bottom: 1rem;
@@ -27,6 +27,7 @@ p{
     position: relative;
     background-color: #EAF6F6;
     padding-top: 100px;
+    margin-bottom: 0;
 }
 .middle-container{
     margin: 6rem 0;
@@ -53,12 +54,16 @@ p{
 .top-cloud{
     position: absolute;
     top: 30px;
-    right: 30%;
+    right: 25%;
 }
 .bottom-cloud{
     position: absolute;
-    left: 30%;
+    left: 25%;
     bottom: 300px;
+}
+.hill{
+    display: block;
+    margin: auto;
 }
 .me-img{
     width: 25%;
@@ -75,6 +80,7 @@ a{
     margin: .8rem 1rem;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    font-weight: bold;
 }
 a:hover{
     color: #EAF6F6;
